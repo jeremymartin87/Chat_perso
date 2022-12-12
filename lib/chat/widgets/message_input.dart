@@ -24,11 +24,11 @@ class MessageInput extends StatelessWidget {
             ),
           ),
         ),
-        IconButton(
+        FloatingActionButton.small(
             onPressed: () {
               onPressed();
             },
-            icon: const Icon(Icons.send))
+            child: const Icon(Icons.send))
       ],
     );
   }
